@@ -151,7 +151,15 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
         }
         break;
     case WM_LBUTTONDOWN:
-        MessageBox(hWnd, L"눌렸습니다", L"마우스 왼쪽 버튼", MB_OK);
+        {
+            // MessageBox(hWnd, L"눌렸습니다", L"마우스 왼쪽 버튼", MB_OK);
+            int x = LOWORD(lParam);
+            int y = HIWORD(lParam);
+
+            HDC hdc = GetDC(hWnd);
+            Ellipse(hdc, x - 50, y - 50, x + 50, y + 50);
+            ReleaseDC(hWnd, hdc);
+        }
         break;
     case WM_DESTROY: // 윈도우 끝내기
             PostQuitMessage(0);
