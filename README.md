@@ -12,3 +12,9 @@ https://github.com/suhye0n/Week02Message
 ### 2주차 (2)
 https://github.com/suhye0n/Week02MFC
 View 클래스의 OnDraw(), WM_LBUTTONDBLCLK 메시지 처리 추가, WM_LBUTTONDOWN 및 WM_LBUTTONUP 메시지 처리 추가, WM_MOUSEMOVE 메시지 처리 추가
+
+### 3주차 (1)
+https://github.com/suhye0n/Week03MFCBitmap
+비트맵 생성
+
+### 3주차 (2)
