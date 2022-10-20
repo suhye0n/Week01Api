@@ -26,3 +26,6 @@ https://github.com/suhye0n/Week04MFCFortress
 
 ### 5주차
 https://github.com/suhye0n/Week05MFCCounter
+
+### 6주차
+https://github.com/suhye0n/Week06Animation
