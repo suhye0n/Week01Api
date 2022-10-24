@@ -29,3 +29,6 @@ https://github.com/suhye0n/Week05MFCCounter
 
 ### 6주차
 https://github.com/suhye0n/Week06Animation
+
+### 7주차
+https://github.com/suhye0n/Week07WinFormsCounter
